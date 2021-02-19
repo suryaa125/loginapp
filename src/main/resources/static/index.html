@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+
+<title>Contacts Login App</title>
+
+</head>
+<body>
+
+	<div class="container">
+		<form
+			action='/getContactDetails'
+			method="get">
+
+			<button type="submit">Get Contacts</button>
+
+		</form>
+			</div>
+			<div>
+			<input type="button" onclick="location.href='https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/contacts&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=http://localhost:9001/getContactDetails&client_id=332446793757-qvagqm30mlgfr0mk1f6se2f9q93tngip.apps.googleusercontent.com';" value="Go to Google" />
+			</div>
+</body>
+</html>
